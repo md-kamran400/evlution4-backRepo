@@ -42,7 +42,7 @@ postRouter.post("/add", async(req, res)=>{
 } );
 
 
-bookRouter.patch("/update/:id", async(req, res)=>{
+postRouter.patch("/update/:id", async(req, res)=>{
     const {id} = req.params;
     try {
         let post = await PostModel.findByIdAndUpdate({_id: id}, req.body)
@@ -52,7 +52,7 @@ bookRouter.patch("/update/:id", async(req, res)=>{
     }
 });
 
-bookRouter.delete("/delete/:id", async(req, res)=>{
+postRouter.delete("/delete/:id", async(req, res)=>{
     const {id} = req.params;
     try {
         let post = await PostModel.findByIdAndDelete(id)
