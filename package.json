@@ -1,7 +1,6 @@
 {
   "name": "4evalution_backend",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -18,5 +17,15 @@
     "jsonwebtoken": "^9.0.1",
     "mongoose": "^7.4.3",
     "nodemon": "^3.0.1"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mdkamran-git/evlution4-backRepo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mdkamran-git/evlution4-backRepo/issues"
+  },
+  "homepage": "https://github.com/mdkamran-git/evlution4-backRepo#readme",
+  "description": ""
 }
